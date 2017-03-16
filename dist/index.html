@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" id="myApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div ng-controller="myFirstController">
+    {{firstName + " " + lastName}}
+    <div greet-directive="lastName">Mr.Angular, </div>
+    <div toggle-template etitle="toggleText">mycontent</div>
+
+    <ul>
+      <li><a href="#/">home page</a></li>
+      <li><a href="#/computers">computers</a></li>
+      <li><a href="#/printers">printers</a></li>
+      <li><a href="#/blabla">blabla</a></li>
+    </ul>
+    <segment-one></segment-one>
+  </div>
+<script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="build.js"></script></body>
+</html>
