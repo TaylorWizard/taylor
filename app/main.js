@@ -11,6 +11,7 @@ import segment_one from "./components/segment_one.js";
 import computer_detail from "./catagories/computer_detail.js"
 
 
+
 let app = angular.module("myApp", [router, ngMaterial, segment_one.name, computer_detail.name], function () {
     console.log("here is my angular app!");
 })
